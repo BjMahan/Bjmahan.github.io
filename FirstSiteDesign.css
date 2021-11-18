@@ -1,0 +1,228 @@
+/* Sets the Basic Rule for Everything */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+/* Style the body */
+
+body {
+    background-image: url(Images/background.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+
+/* Style the header */
+
+header {
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: double;
+    max-height: auto;
+}
+
+
+/* Style H1 */
+
+h1 {
+    color: black;
+}
+
+
+/* Style the main */
+
+main {
+    text-align: center;
+    color: black;
+}
+
+
+/* Style p */
+
+p {
+    font-size: 14px;
+}
+
+
+/* Style H2 */
+
+h2 {
+    color: black;
+}
+
+
+/* Style the menu-area list link */
+
+.menu-area li a {
+    text-decoration: none;
+}
+
+
+/* Style menu-area list */
+
+.menu-area li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+/* Custom padding for items */
+
+.custom-padding {
+    padding-top: 25px;
+}
+
+
+/* Style the nav tag */
+
+nav {
+    position: relative;
+    width: calc(100% - 60px);
+    margin: 0 auto;
+    padding: 10px 0;
+    background: #333;
+    z-index: 1;
+    text-align: right;
+    padding-right: 2%;
+}
+
+
+/* modifies the logo */
+
+.logo {
+    width: 15%;
+    float: left;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 2%;
+}
+
+
+/* Styling the navigation hotbar menu area*/
+
+.menu-area a {
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    padding: 0 25px;
+    font-size: 14px;
+    line-height: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.menu-area a:hover {
+    background: tomato;
+    color: #fff;
+}
+
+.menu-area a:hover:after {
+    transform: translateY(-50%) rotate(-35deg);
+}
+
+
+/* Styling the navigation section*/
+
+nav:before {
+    position: absolute;
+    content: '';
+    border-top: 10px solid #333;
+    border-right: 10px solid #333;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    top: 100%;
+    left: 0;
+}
+
+nav:after {
+    position: absolute;
+    content: '';
+    border-top: 10px solid #333;
+    border-left: 10px solid #333;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    top: 100%;
+    right: 0;
+}
+
+
+/* Modifying columns*/
+
+.column-store {
+    float: left;
+    width: 30%;
+    padding: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 350px;
+    margin: 15px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+    background-color: #333;
+    line-height: 1;
+}
+
+.column-home {
+    width: 50%;
+    padding: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 475px;
+    margin: auto;
+    background-color: #333;
+    line-height: 2;
+}
+
+.column-checkout {
+    width: 30%;
+    padding: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 350px;
+    margin: auto;
+    background-color: #333;
+    line-height: 2;
+}
+
+
+/* White font for inside columns */
+
+.column-H2 {
+    color: white;
+}
+
+
+/* modify forms on acc page */
+
+.form-registration {
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    float: left;
+    width: 90%;
+    border: 1px solid black;
+}
+
+img {
+    width: 40px;
+    height: auto;
+    float: left;
+    padding-left: 5px;
+    /*to preserve the aspect ratio of the image*/
+}
